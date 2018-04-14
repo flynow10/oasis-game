@@ -4,7 +4,7 @@ $(function() {
     $('#avatarname').on('click dblclick', '.btn-primary', null, setAvatarName);
 
 
-    $('#avatarname').modal({ keyboard : false});
+    $('#avatarname').modal({ keyboard : false, backdrop : 'static'});
     
     $('.x').on('dblclick', setWinner);
 

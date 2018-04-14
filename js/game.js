@@ -14,8 +14,13 @@ $(function() {
     }
 
     function setAvatarName() {
-        avatarName = rot13($('#avatar').val());
-        init();
+        var providedName = $('#avatar').val();
+        if (providedName.length === 0) {
+            alert('You must enter a name!');
+        } else {
+            avatarName = rot13($('#avatar').val());
+            init();
+        }
     }
 
     function rot13(str) {

@@ -15,8 +15,14 @@
 <body>
     
 <h1>Welcome to the OASIS</h1>
-
-<span class="x">.</span>
+<h3>This is a recreation of Wade/Parzivals notebook.<br> It is filled with different things about James Haliday who created this virtural world.<br> It has a few things that don't quite fit with the Haliday's story. <br> If you can find them they might give you clues to the easter egg!<br>If you find the easter egg it will allow you to download a pdf with special stuff on it!</h3> <br>
+<h2>Oh and one last thing your cursor will tell you if you have found the easter egg!</h2>
+<br>
+<h1>Good Luck!</h1>
+<br>
+<br>
+<h5>James Haliday</h5>
+<p>James Haliday was Born 1972 Died 2039. He was raised <span class="x">.</span></p>
 
 <div id="avatarname" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">

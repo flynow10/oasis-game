@@ -22,7 +22,10 @@
 <br>
 <br>
 <h5>James Haliday</h5>
-<p>James Haliday was Born 1972 Died 2039. He was raised <span class="x">.</span></p>
+<p>James Haliday was Born 1972 Died 2039<span class="x">.</span></p>
+<p>Haliday is a billionare.</p>
+<p>Oasis character: Anorak</p>
+<p>Obsessed with the 1980s</p>
 
 <div id="avatarname" class="modal fade" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">

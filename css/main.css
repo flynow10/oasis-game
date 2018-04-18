@@ -1,2 +1,31 @@
 .x { cursor: crosshair; }
 .x:hover { color : red; }
+
+.dark { background-color: #222; }
+
+@font-face {
+    font-family: "digital";
+    src: url("../fonts/digital-7italic.woff") format('woff');
+    font-style: italic;
+}
+
+body { 
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.dark h1 { color : rgb(218, 218, 218); font-size : 72px; }
+.dark table { width : 820px;}
+.r { text-align : right;}
+th, td { 
+    font-family: 'digital', 'Share Tech Mono', monospace;
+    font-size : 66px;
+    font-style: italic;
+}
+td { padding : 0 0.2em; }
+th { color : green; text-align: center; font-weight: normal; }
+
+.first { color : yellow; }
+.second { color : orange; }
+.third { color : orangered;}
+.fourth {color : red;}
+.fifth {color : red;}

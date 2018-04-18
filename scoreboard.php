@@ -25,27 +25,27 @@ $theWinner = substr($winnerFile, 40, strlen($winnerFile) - 43);
         <tbody>
             <tr class="first">
                 <td class="r">1st</td>
-                <td class="scoreboard">Parzival</td>
+                <td class="scoreboardnf"></td>
                 <td class="r">100000</td>
             </tr>
             <tr class="second">
                 <td class="r">2nd</td>
-                <td>Parzival</td>
+                <td class="scoreboardns"></td>
                 <td class="r">100000</td>
             </tr>
             <tr class="third">
                 <td class="r">3rd</td>
-                <td>Parzival</td>
+                <td class="scoreboardnt"></td>
                 <td class="r">100000</td>
             </tr>
             <tr class="fourth">
                 <td class="r">4th</td>
-                <td>Parzival</td>
+                <td class="scoreboardnfo"></td>
                 <td class="r">100000</td>
             </tr>
             <tr class="fifth">
                 <td class="r">5th</td>
-                <td>Parzival</td>
+                <td class="scoreboardnfi"></td>
                 <td class="r">100000</td>
             </tr>
         </tbody>

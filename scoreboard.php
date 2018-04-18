@@ -24,8 +24,8 @@ $theWinner = substr($winnerFile, 40, strlen($winnerFile) - 43);
         </thead>
         <tbody>
             <tr class="first">
-                <td class="scoreboard r">1st</td>
-                <td>Parzival</td>
+                <td class="r">1st</td>
+                <td class="scoreboard">Parzival</td>
                 <td class="r">100000</td>
             </tr>
             <tr class="second">

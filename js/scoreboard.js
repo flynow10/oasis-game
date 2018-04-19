@@ -1,24 +1,25 @@
 $(function(){
+    var audio = new Audio('bell.wav');
     var scoreboardPlayers = {
         first : {
             name : "",
-            score : 0
+            score : null
         },
         second : {
             name : "",
-            score : 0
+            score : null
         },
         third : {
             name : "",
-            score : 0
+            score : null
         },
         fourth : {
             name : "",
-            score : 0
+            score : null
         },
         fifth : {
             name : "",
-            score : 0
+            score : null
         }
     }
     window.setInterval(checkGameStatus, 300);
@@ -31,10 +32,17 @@ $(function(){
     }
     function hasWinnerBeenPosted(data) {
         if (data.gameOver) {
-            scoreboardPlayers.first.name = data.winningAvatar;
+            if (scoreboardPlayers.first.score === null )
+            audio.play();
         }
+            scoreboardPlayers.first.name = data.winningAvatar;
+            if (data.score !== 0) {
+            scoreboardPlayers.first.score = data.score;
+            }
     }
     function updateScoreboardStatus(){
         $(".scoreboardnf").text(scoreboardPlayers.first.name);
+        $(".scoreboardsf").text(scoreboardPlayers.first.score);
+
     }
 });

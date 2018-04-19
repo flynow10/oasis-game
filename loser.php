@@ -1,6 +1,6 @@
 <?php
 $winnerFile = file_get_contents("./game-over.json", FILE_USE_INCLUDE_PATH);
-$theWinner = substr($winnerFile, 40, strlen($winnerFile) - 43);
+$theWinner = substr($winnerFile, 40, strlen($winnerFile) - 60);
 ?>
 
 <!DOCTYPE html>

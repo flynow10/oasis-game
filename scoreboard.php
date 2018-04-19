@@ -13,7 +13,9 @@ $theWinner = substr($winnerFile, 40, strlen($winnerFile) - 43);
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body class="dark">
-    <h1>Let the Egg hunt BEGIN</h1>
+
+    
+    <h1 class="title">Let the Egg hunt BEGIN</h1>
     <table>
         <thead>
             <tr>
@@ -26,27 +28,27 @@ $theWinner = substr($winnerFile, 40, strlen($winnerFile) - 43);
             <tr class="first">
                 <td class="r">1st</td>
                 <td class="scoreboardnf"></td>
-                <td class="r">100000</td>
+                <td class="scoreboardsf r"></td>
             </tr>
             <tr class="second">
                 <td class="r">2nd</td>
                 <td class="scoreboardns"></td>
-                <td class="r">100000</td>
+                <td class="scoreboardss r"></td>
             </tr>
             <tr class="third">
                 <td class="r">3rd</td>
                 <td class="scoreboardnt"></td>
-                <td class="r">100000</td>
+                <td class="scoreboardst r"></td>
             </tr>
             <tr class="fourth">
                 <td class="r">4th</td>
                 <td class="scoreboardnfo"></td>
-                <td class="r">100000</td>
+                <td class="scoreboardsfo r"></td>
             </tr>
             <tr class="fifth">
                 <td class="r">5th</td>
                 <td class="scoreboardnfi"></td>
-                <td class="r">100000</td>
+                <td class="scoreboardsfi r"></td>
             </tr>
         </tbody>
     </table>

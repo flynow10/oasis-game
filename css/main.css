@@ -1,3 +1,4 @@
+
 .x { cursor: crosshair; }
 .x:hover { color : red; }
 
@@ -13,13 +14,14 @@ body {
     font-family: 'Share Tech Mono', monospace;
 }
 
-.dark h1 { color : rgb(218, 218, 218); font-size : 72px; }
-.dark table { width : 820px;}
+.dark h1 { color : rgb(218, 218, 218); font-size : 130px; text-align: center; margin: 0px}
+.dark table { width : 820px; }
 .r { text-align : right;}
 th, td { 
     font-family: 'digital', 'Share Tech Mono', monospace;
     font-size : 66px;
     font-style: italic;
+    text-align: center
 }
 td { padding : 0 0.2em; }
 th { color : green; text-align: center; font-weight: normal; }

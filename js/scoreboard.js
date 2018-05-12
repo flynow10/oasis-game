@@ -26,7 +26,7 @@ $(function(){
     window.setInterval(updateScoreboardStatus, 1000);
 
     function checkGameStatus(){
-        var req = $.ajax('/oasis/game-over.json', {dataType : 'json'});
+        var req = $.ajax('/game-over.json', {dataType : 'json'});
         req.done(hasWinnerBeenPosted);
         req.fail(function() { alert('there was a problem -- refresh the page');});
     }

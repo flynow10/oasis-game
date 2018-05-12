@@ -32,18 +32,18 @@ $(function() {
       }
 
     function setWinner() {
-        window.location = '/oasis/winner.php?avatar=' + avatarName;
+        window.location = '/winner.php?avatar=' + avatarName;
     }
 
     function checkGameStatus() {
-        var req = $.ajax('/oasis/game-over.json', {dataType : 'json'});
+        var req = $.ajax('/game-over.json', {dataType : 'json'});
         req.done(hasWinnerBeenPosted);
         req.fail(function() { alert('there was a problem -- refresh the page');});
     }
 
     function hasWinnerBeenPosted(data) {
         if (data.gameOver) {
-            window.location = "/oasis/loser.php"
+            window.location = "/loser.php"
         }
     }
 });

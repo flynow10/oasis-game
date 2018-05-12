@@ -39,6 +39,6 @@ if (is_writable($filename)) {
     </h1>
     <br>
     <h2 style="text-align : center;">Thank you for playing my game.</h2>
-    <h3 style="text-align : center; color : black;"><a style="color : black;" href="/oasis/DoNOTopenUntilYourHome.pdf">Claim your prize</a></h3>
+    <h3 style="text-align : center; color : black;"><a style="color : black;" href="/DoNOTopenUntilYourHome.pdf">Claim your prize</a></h3>
 </body>
 </html>

@@ -31,3 +31,6 @@ th { color : green; text-align: center; font-weight: normal; }
 .third { color : orangered;}
 .fourth {color : red;}
 .fifth {color : red;}
+.card-image{
+    margin: auto;
+}

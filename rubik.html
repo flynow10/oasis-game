@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TESTING</title>
+    <style>
+        body { background-color :wheat; }
+        #cube { width : 350px; height : 350px; border : 1px solid black; padding : 1em;}
+        .face { display: inline-block; width : 100px; height : 100px; margin : .2em; }
+        .white { background-color: white;}
+        .red { background-color: red;}
+        .blue { background-color: blue;}
+        .yellow { background-color: yellow;}
+        .green { background-color: green;}
+        .orange { background-color: orange;}
+    </style>
+</head>
+<body>
+    
+    <div id="cube">
+        <div class="face white"></div>
+        <div class="face white"></div>
+        <div class="face white"></div>
+        <div class="face white"></div>
+        <div class="face white"></div>
+        <div class="face white"></div>
+        <div class="face white"></div>
+        <div class="face white"></div>
+        <div class="face white"></div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <hr>
+    <button data-direction="up">Move Up</button>
+    <button data-direction="down">Move Down</button>
+    <button data-direction="left">Move Left</button>
+    <button data-direction="right">Move Right</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="rubik.js"></script>
+</body>
+</html>

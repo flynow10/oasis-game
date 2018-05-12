@@ -13,9 +13,9 @@
 body { 
     font-family: 'Share Tech Mono', monospace;
 }
-
-.dark h1 { color : rgb(218, 218, 218); font-size : 130px; text-align: center; margin: 0px}
-.dark table { width : 820px; }
+.dark { text-align: center;}
+.dark h1 { color : rgb(218, 218, 218); font-size : 130px; text-align: center; margin: 0 0 .2em 0; font-weight: normal;}
+.dark table { width : 820px; margin : 0 auto; }
 .r { text-align : right;}
 th, td { 
     font-family: 'digital', 'Share Tech Mono', monospace;

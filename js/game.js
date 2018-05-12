@@ -36,7 +36,7 @@ $(function() {
     }
 
     function checkGameStatus() {
-        var req = $.ajax('/game-over.json', {dataType : 'json'});
+        var req = $.ajax('/game-over.json?t=' + +new Date(), {dataType : 'json'});
         req.done(hasWinnerBeenPosted);
         req.fail(function() { alert('there was a problem -- refresh the page');});
     }

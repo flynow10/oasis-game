@@ -87,6 +87,7 @@ if (is_writable($filename)) {
         color: white;
         width: 65%;
         padding: 10px;
+        margin-top : 3em;
         overflow: auto;
     }
     main h2 {
@@ -111,7 +112,7 @@ if (is_writable($filename)) {
         <h2 style="text-align : center;">Thank you for playing my game.</h2>
         <h1>Congratulations <?php
         echo(htmlentities(str_rot13($_GET["avatar"])));
-        ?>, you found the easter egg!
+        ?>, you found the easter egg! <br /><br /> DON'T TELL ANYONE!
         </h1>
         <h3 style="text-align : center; color : black;"><a style="color : black;" href="/prize.pdf">Claim your prize</a></h3>
     </main>

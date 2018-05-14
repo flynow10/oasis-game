@@ -90,9 +90,8 @@
             <div class="card-header">Parzival / Wade Owen Watts</div>
             <div class="card-body">
               <p class="card-text">
-                Parzival is also known as Wade in the real world. Is a student at a school on ludus. He is the first to find the hiding place
-                of the copper key and first to get the crystal key. He is the storyteller and is telling it from the first
-                person.
+                Parzival is also known as Wade in the real world. He is a student at a virtual high school in the OASIS. He is the first to find get 
+                the copper key and first to get the crystal key. He is the book's storyteller and is telling it from the first person perspective.
               </p>
             </div>
           </div>
@@ -101,9 +100,9 @@
             <div class="card-header">Art3mis / Samantha</div>
             <div class="card-body">
               <p class="card-text">
-                Art3mis is also known as Samantha one of the team members of the team called the high five and is the first to find the jade
-                key. She is the one who first finds the location of the copper key, even though she doesn’t get it first.
-                She helps wade on his quest to find the easter egg and defeat IOI.
+                Art3mis is also known as Samantha. She is one of the team members of High Five and is the first to find the jade
+                key. She finds the location of the copper key, even though she doesn’t get to it first.
+                She helps Wade on his quest to find the easter egg and defeat IOI.
               </p>
             </div>
           </div>
@@ -112,10 +111,10 @@
             <div class="card-header">Aech / Helen</div>
             <div class="card-body">
               <p class="card-text">
-                Aech is Parzivals buddy from the start to the end of the book. He helps Parzival all the way through the book. He has a male
-                caucasian avatar, but in real life she is an African-American woman. He makes money fighting in duels on
+                Aech is Parzival's buddy from the start to the end of the book. He helps Parzival all the way through the book. He has a caucasian male
+                avatar, but in real life she is an African-American woman. He makes money fighting in duels on
                 the planet Doom. He earns enough to buy a private chat room that he uses to talk to Parzival and the other
-                member of the high five.
+                member of the High Five.
               </p>
             </div>
           </div>
@@ -128,7 +127,7 @@
             <div class="card-header">Shoto / Akihide Karatsu</div>
             <div class="card-body">
               <p class="card-text">
-                Shoto a Japanese member of the high five he is best friends with Datio. His avatar is a short Samurai. Shoto means short
+                Shoto a Japanese member of the High Five and is best friends with Datio. His avatar is a short Samurai. Shoto means short
                 sword while Daito means long sword. In real life his name is Akihide Karatsu.
               </p>
             </div>
@@ -150,9 +149,9 @@
             <div class="card-header">Daito / Toshiro Yoshiaki</div>
             <div class="card-body">
               <p class="card-text">
-                Daito is another Japanese member of the high five he is best friends with Shoto His avatar is a tall Samurai Daito means
+                Daito is another Japanese member of the High Five and is best friends with Shoto. His avatar is a tall Samurai. Daito means
                 long sword while Shoto means short sword. In real life his name is Toshiro Yoshiaki. Towards the end of the
-                book He gets murdered by the IOI.
+                book Daito gets murdered by the IOI.
               </p>
             </div>
           </div>
@@ -160,13 +159,11 @@
         </div>
 
         <div class="card-deck">
-
           <div class="card mb-4 box-shadow face white">
             <div class="card-header">IOI 655123 / Sorrento</div>
             <div class="card-body">
               <p class="card-text">
-                Sorrento is the leader of IOI he is the main enemy in the book. Because he works for IOI he gets a large sum of the money
-                earned.
+                Sorrento is the leader of IOI. He is the main enemy in the book. Because he works for IOI he gets a large sum of the money earned.
               </p>
             </div>
           </div>
@@ -175,8 +172,8 @@
             <div class="card-header">Anorak / James Halliday</div>
             <div class="card-body">
               <p class="card-text">
-                Anorak is also known as Halliday and is the creator of the OASIS and the egg hunt. He is obsessed with the 1980s, and is
-                a big fan of War Games and Dungeons and Dragons.
+                Anorak is also known as James Halliday and is the creator of the OASIS and the egg hunt. He is obsessed with the 1980s, and is
+                a big fan of War Games and Dungeons &amp; Dragons.
               </p>
             </div>
           </div>
@@ -186,8 +183,8 @@
             <div class="card-body">
               <p class="card-text">
                 Ogden Morrow is the co-founder of GSS (Gregarious Simulation Systems) which is the company that built the OASIS. He and Halliday
-                did not talk during the last 14 years of Hallidays life. At the end of the book he offered to protect Parzival
-                Artemis Aech Daito and Shoto in the real world from the IOI.
+                did not talk during the last 14 years of Hallidays life. At the end of the book he offered to protect Parzival,
+                Artemis, Aech, Daito, and Shoto in the real world from the IOI.
               </p>
             </div>
           </div>

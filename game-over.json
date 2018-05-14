@@ -1,1 +1,1 @@
-{ "gameOver" : false, "winningAvatar" : "", "score" : 0}
+{ "winnerNumber" : 0, "gameOver" : false, "winningAvatar" : "", "score" : 0}

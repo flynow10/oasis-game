@@ -1,6 +1,6 @@
 <?php
 $filename = 'game-over.json';
-$somecontent = "{ \"gameOver\" : false, \"winningAvatar\" : \"\", \"score\" : 0}";
+$somecontent = "{ \"winnerNumber\" : 0, \"gameOver\" : false, \"winningAvatar\" : \"\", \"score\" : 0}";
 // Let's make sure the file exists and is writable first.
 if (is_writable($filename)) {
 

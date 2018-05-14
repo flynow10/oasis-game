@@ -1,8 +1,14 @@
+.x {
+    cursor: crosshair;
+}
 
-.x { cursor: crosshair; }
-.x:hover { color : red; }
+.x:hover {
+    color: red;
+}
 
-.dark { background-color: #222; }
+.dark {
+    background-color: #222;
+}
 
 @font-face {
     font-family: "digital";
@@ -10,27 +16,115 @@
     font-style: italic;
 }
 
-body { 
+body {
     font-family: 'Share Tech Mono', monospace;
 }
-.dark { text-align: center;}
-.dark h1 { color : rgb(218, 218, 218); font-size : 130px; text-align: center; margin: 0 0 .2em 0; font-weight: normal;}
-.dark table { width : 820px; margin : 0 auto; }
-.r { text-align : right;}
-th, td { 
+
+.jumbotron .container {
+    max-width: 50rem;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.dark {
+    text-align: center;
+}
+
+.dark h1 {
+    color: rgb(218, 218, 218);
+    font-size: 130px;
+    text-align: center;
+    margin: 0 0 .2em 0;
+    font-weight: normal;
+}
+
+.dark table {
+    width: 820px;
+    margin: 0 auto;
+}
+
+.r {
+    text-align: right;
+}
+
+th,
+td {
     font-family: 'digital', 'Share Tech Mono', monospace;
-    font-size : 66px;
+    font-size: 66px;
     font-style: italic;
     text-align: center
 }
-td { padding : 0 0.2em; }
-th { color : green; text-align: center; font-weight: normal; }
 
-.first { color : yellow; }
-.second { color : orange; }
-.third { color : orangered;}
-.fourth {color : red;}
-.fifth {color : red;}
-.card-image{
+td {
+    padding: 0 0.2em;
+}
+
+th {
+    color: green;
+    text-align: center;
+    font-weight: normal;
+}
+
+.first {
+    color: yellow;
+}
+
+.second {
+    color: orange;
+}
+
+.third {
+    color: orangered;
+}
+
+.fourth {
+    color: red;
+}
+
+.fifth {
+    color: red;
+}
+
+.card-image {
     margin: auto;
+}
+
+.face {
+    background-color: chartreuse;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.orange {
+    background-color: orange;
 }

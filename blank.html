@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blank</title>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <style>
+    * { margin : 0;}
+    body { background-color : white;}
+    </style>
+</head>
+<body>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('body').on('keydown', function(e) {
+                if (e.which === 39) {
+                    window.location = '/start.html';
+                }
+            });
+        });  
+    </script>
+</body>
+</html>
